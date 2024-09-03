@@ -1,0 +1,194 @@
+body {
+  background-color: rgb(116, 133, 133);
+  height: 100vh;
+  margin-left: 20px;
+  width: 90%;
+}
+header {
+  position: relative;
+ 
+ 
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  background-color: rgb(0, 0, 0);
+  justify-content: flex-end;
+  
+}
+
+.main-nav li {
+    margin: 0 5px;
+  }
+
+  .main-nav img {
+    display: inline-block;
+    height: 20px;
+    max-width: 100%; 
+  }
+
+  
+.main-container {
+  display: flex;
+  flex-direction: column;
+
+  height: 95%;
+  background-color: black;
+}
+
+.section2 {
+  margin-top: -2%;
+  height: 30%;
+  width: 100%;
+  
+}
+.section21 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  
+}
+.section22 {
+  height: 15%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: gainsboro;
+  
+}
+
+
+
+.box22 {
+  height: 100%;
+  width: 65%;
+
+  background-color: rgb(0, 0, 0);
+}
+/* .name {
+  position: relative;
+  bottom: 80%;
+  font-size: larger;
+  color: white;
+}
+
+.position-resume {
+  position: relative;
+  font-size: large;
+  color: aqua;
+  right: 29.5%;
+  bottom: 68%;
+} */
+
+.box23 {
+  height: 100%;
+  width: 35%;
+
+  background-color: rgb(0, 0, 0);
+}
+
+.contact-info p {
+    margin: 3px;
+    color: gainsboro;
+  }
+  
+  .label {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .contact-info a {
+    color: #4ea7ff;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+
+.section3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+  width: 100%;
+  height: 100%;
+ 
+  border-top: 4px solid gainsboro;
+}
+
+.box33 {
+  height: 100%;
+  width: 69%;
+
+  background-color: 
+  rgb(62, 70, 64);
+}
+.box34 {
+  height: 100%;
+  width: 30%;
+  margin-left: 1%;
+
+  background-color: rgb(64, 61, 63);
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;  
+    flex-direction: row; 
+    justify-content:center;
+    margin: auto;
+    background-color: black;
+   
+  }
+  .main-nav{
+    position: relative;
+    width: ;
+    
+
+  }
+
+  .main-container {
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .section2 {
+    height: auto;
+  }
+
+  .section21 {
+    flex-direction: column;
+  }
+  img {
+    display: none;
+  }
+
+  .name {
+    flex-direction: column;
+    color: white;
+  }
+
+  .position-resume {
+    color: aqua;
+  }
+  .box22 {
+    flex-direction: column;
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .box23,
+  .box33,
+  .box34 {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .section3 {
+    flex-direction: column;
+  }
+}
